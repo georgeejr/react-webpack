@@ -1,3 +1,11 @@
-const css = require('./app.styl');
+const css = require('./app.styl')
 
-console.log("It works!!");
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+ReactDOM.render(
+  <h1>Hello, world!</h1>,
+  document.getElementById('root')
+)
+
+console.log("It works!!!!!!!!!!!!")
