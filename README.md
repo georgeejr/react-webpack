@@ -4,7 +4,7 @@ A simple spotify search app built with React.
 This is made for a certain purpose and to practice spotify api using reactjs
 
 ## Featues
-* [react](https://facebook.github.io/react/docs/hello-world.html) - 
+* [react](https://facebook.github.io/react/docs/hello-world.html)
 * [webpack 2](https://webpack.js.org/configuration/)
 * [babel](https://babeljs.io/docs/setup/)
 * [axios](https://www.npmjs.com/package/axios)
@@ -35,3 +35,4 @@ NPM Commands
 |npm run clean|Delete **./dist** folder|
 
 ## Functional Design
+* Why Webpack 2? Because Webpack is the new javascript module bundler that lets you import files and bundles everything together. So on the page you are just including 1 file and all the necessary parts of your javascript application or site are bundled together into 1 file. Webpack makes your development and production very fast and maintainable.
