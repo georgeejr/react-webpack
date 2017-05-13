@@ -34,5 +34,8 @@ NPM Commands
 |npm run lint|Lint **.js** files|
 |npm run clean|Delete **./dist** folder|
 
-## Functional Design
+## Technology Description 
 * Why Webpack 2? Because Webpack is the new javascript module bundler that lets you import files and bundles everything together. So on the page you are just including 1 file and all the necessary parts of your javascript application or site are bundled together into 1 file. Webpack makes your development and production very fast and maintainable.
+* Why axios - Axios is a great http client library. It uses promises by default and runs on both the client and the server (which makes it appropriate for fetching data during server-side rendering). And it is the most recommended on all forums when using reactjs or vuejs.
+* Why am i recommending stylus - Because of It's clean syntax and the fact it can do everything else that other preprocessors does.
+* Why reactjs? - Simply because of its Virtual-DOM feature that makes your application faster.
