@@ -23,6 +23,7 @@ $ cd react-webpack
 $ npm install
 $ npm run dev
 ```
+You can look for the build static files inside **./dist** folder
 
 NPM Commands
 ------------
