@@ -1,4 +1,153 @@
+// font
+@import url('https://fonts.googleapis.com/css?family=Montserrat')
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+//mixins
+placeholder(c)
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color: c
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: c
+    opacity:  1
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: c
+    opacity:  1;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: c
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: c
+  }
 body
+  background-color: #0B0B0B
+  font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+  margin:0
+  padding:0
+  color:#e1e1e1
+  font-size:14px
+ul
+  padding:0
+  margin:0
+  li
+    list-style: none
+a
+  text-decoration: none
+  color: #e1e1e1
+.container
+  width: 100% 
+  .s-wrapper
     background-color: #242424
-    color:#666
-    font-family: 'Open Sans'
+    padding: 20px
+    .search-icon
+      cursor: pointer
+      position: absolute;
+      right: 20px;
+      top: 48px;
+      font-size: 30px;
+      @media only screen and (min-width : 480px)
+        top: 56px;
+        font-size: 42px;
+    span
+      color: #afafaf
+      font-size: 12px
+    input
+      font-size:22px
+      margin: 10px 0
+      width: 100%;
+      background: transparent;
+      border: 0; 
+      font-family: Montserrat
+      color:#f1f1f1
+      font-weight: 600
+      outline: 0
+      border-bottom: 1px solid #666
+      placeholder: #666
+      @media only screen and (min-width : 480px)
+        font-size: 42px
+  .s-results
+    padding: 20px
+    .albums, .artists, .playlists
+      li
+        text-align: center
+        width:100%
+        padding:2%
+        opacity: 1
+        -webkit-transition: opacity .3s ease-in-out
+        -moz-transition: opacity .3s ease-in-out
+        -ms-transition: opacity .3s ease-in-out
+        -o-transition: opacity .3s ease-in-out
+        transition: opacity .3s ease-in-out
+        &:hover
+          opacity: .5
+        @media only screen and (min-width : 768px)
+          width:21%
+          display: inline-block
+        a
+          display: inline-table
+          img
+            border-radius: 50%
+            max-width: 300px
+            width:100%
+          p
+            font-size:16px
+            margin-bottom:5px
+          p.artist-name
+            margin-top:5px
+            font-size:12px
+            color:#aaa
+    .tracks
+      li
+        width:100%
+        float:left
+        margin-bottom:5px
+        padding:5px
+        -webkit-transition: opacity .3s ease-in-out
+        -moz-transition: opacity .3s ease-in-out
+        -ms-transition: opacity .3s ease-in-out
+        -o-transition: opacity .3s ease-in-out
+        transition: opacity .3s ease-in-out
+        &:hover
+          opacity: .8
+          background:#222
+          color:#fff
+        .img-cont
+          width:23%
+          float:left
+          @media only screen and (min-width : 480px)
+            width: 16%
+          @media only screen and (min-width : 768px)
+            width:100px
+          img
+            width:50px
+            height:50px
+            @media only screen and (min-width : 768px)
+              width:80px
+              height:80px 
+        .desc
+          width:77%
+          float:left
+          @media only screen and (min-width : 480px)
+            width:84%
+          @media only screen and (min-width : 768px)
+            width:auto
+          p
+            margin:0
+            font-size: 16px
+          .artist-name
+            font-size:12px
+
+
+@media only screen and (min-width : 480px) {
+
+}
+@media only screen and (min-width : 768px) {
+
+}
+@media only screen and (min-width : 992px) {
+
+}
+@media only screen and (min-width : 1200px) {
+
+}
