@@ -1,7 +1,7 @@
 {
   "name": "react-spotify",
   "version": "1.0.0",
-  "description": "sprii front end test",
+  "description": "George Spotify React App",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf ./dist/*",
